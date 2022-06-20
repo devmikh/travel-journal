@@ -1,3 +1,11 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
 /* Navbar */
 
 .navbar {
@@ -22,4 +30,71 @@
 
 .navbar--title--text {
     font-size: 15px;
+}
+
+/* Card */
+
+.card--container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card--image {
+    width: 140px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card--text {
+    display: flex;
+    flex-direction: column;
+}
+
+.card--country {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.card--country--icon {
+    display: inline-flex;
+    align-self: center;
+    color: #F55A5A;
+    margin-right: 4px;
+}
+
+.card--country--name {
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+    margin-right: 14px;
+    font-weight: 400;
+}
+
+.card--country--link {
+    color: #918E9B;
+}
+
+.card--title {
+    color: #2B283A;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.card--date {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card--description {
+    font-size: 12px;
+    line-height: 150%;
 }
